@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
+  <link rel="manifest" href="manifest.json">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>صلاة | Salah</title>
@@ -1115,6 +1116,11 @@ setInterval(() => {
   const el = document.getElementById('nextCountdown');
   if (el && el.textContent !== '—') loadPrayerTimes();
 }, 60000);
+</script>
+  <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('pwabuilder-sw.js');
+  }
 </script>
 </body>
 </html>
