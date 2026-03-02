@@ -1,11 +1,13 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
+  "background_color": "#000000",
+  "dir": "auto",
   "display": "standalone",
-  "name": "andromodern.github",
+  "name": "Salah",
   "orientation": "portrait-primary",
   "scope": "/",
-  "short_name": "andromodern.github",
+  "short_name": "Salah",
   "start_url": "/",
-  "theme_color": "#ffffff"
+  "theme_color": "#7d7d7d",
+  "id": "salah-app",
+  "lang": "ar"
 }
