@@ -1,0 +1,11 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "andromodern.github",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "short_name": "andromodern.github",
+  "start_url": "/",
+  "theme_color": "#ffffff"
+}
